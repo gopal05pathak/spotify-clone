@@ -1,0 +1,80 @@
+.font{
+    font-size: small;
+}
+
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.justify-content{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.flex{
+    display: flex;
+}
+.border-r{
+    border-radius: 12px;
+}
+
+.m-1{
+    margin: 4px;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-black{
+    background-color: black;
+}
+.bg-grey{
+    background-color:#121212
+}
+
+.p-1{
+    padding: 10px;
+}
+
+
+
+/* scrollbars */
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Rounded corners of the thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #222; /* Color of the scrollbar track */
+  }
+  
+  /* For Firefox */
+  /* Note: Firefox currently supports scrollbar styling only with dark mode enabled */
+  /* You can enable dark mode in Firefox using the media query or through browser settings */
+  
+  /* Track */
+  /* You can use the same color as WebKit browsers for consistency */
+  scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  /* Handle */
+  scrollbar-thumb {
+    background-color: #333; /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Rounded corners of the thumb */
+  }
+  
+  /* Track */
+  scrollbar-track {
+    background-color: #222; /* Color of the scrollbar track */
+  }
+  
+ /*scrolls bars dark   */
